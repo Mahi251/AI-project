@@ -52,26 +52,27 @@ export type SearchResult = {
 };
 
 // Approximate layout derived from a stylized Addis Ababa map to improve readability.
+// Nodes are spread widely horizontally to create a landscape-oriented map.
 const nodes: GraphNode[] = [
-  { id: "Megenagna", label: "Megenagna", position: { x: 82, y: 16 } },
-  { id: "CMC", label: "CMC", position: { x: 100, y: 8 } },
-  { id: "Hayahulet", label: "Hayahulet", position: { x: 78, y: 34 } },
-  { id: "Kazanchis", label: "Kazanchis", position: { x: 58, y: 42 } },
-  { id: "Meskel_Square", label: "Meskel Sq.", position: { x: 54, y: 50 } },
-  { id: "Mexico", label: "Mexico", position: { x: 48, y: 58 } },
-  { id: "Stadium", label: "Stadium", position: { x: 62, y: 60 } },
-  { id: "Gotera", label: "Gotera", position: { x: 74, y: 64 } },
-  { id: "Bole", label: "Bole", position: { x: 96, y: 56 } },
-  { id: "Legehar", label: "Legehar", position: { x: 44, y: 72 } },
+  { id: "Megenagna", label: "Megenagna", position: { x: 120, y: 16 } },
+  { id: "CMC", label: "CMC", position: { x: 150, y: 8 } },
+  { id: "Hayahulet", label: "Hayahulet", position: { x: 110, y: 34 } },
+  { id: "Kazanchis", label: "Kazanchis", position: { x: 75, y: 42 } },
+  { id: "Meskel_Square", label: "Meskel Sq.", position: { x: 65, y: 50 } },
+  { id: "Mexico", label: "Mexico", position: { x: 50, y: 58 } },
+  { id: "Stadium", label: "Stadium", position: { x: 85, y: 60 } },
+  { id: "Gotera", label: "Gotera", position: { x: 105, y: 64 } },
+  { id: "Bole", label: "Bole", position: { x: 140, y: 56 } },
+  { id: "Legehar", label: "Legehar", position: { x: 40, y: 72 } },
   {
     id: "Autobus_Tera",
     label: "Autobus Tera",
-    position: { x: 34, y: 86 }
+    position: { x: 25, y: 86 }
   },
-  { id: "SarBet", label: "Sar Bet", position: { x: 52, y: 82 } },
-  { id: "Arat_Kilo", label: "Arat Kilo", position: { x: 40, y: 34 } },
-  { id: "Piassa", label: "Piassa", position: { x: 28, y: 26 } },
-  { id: "Merkato", label: "Merkato", position: { x: 22, y: 38 } }
+  { id: "SarBet", label: "Sar Bet", position: { x: 55, y: 82 } },
+  { id: "Arat_Kilo", label: "Arat Kilo", position: { x: 35, y: 34 } },
+  { id: "Piassa", label: "Piassa", position: { x: 15, y: 26 } },
+  { id: "Merkato", label: "Merkato", position: { x: 5, y: 38 } }
 ];
 
 // Bidirectional edges representing primary corridors and shortcuts.

@@ -244,8 +244,8 @@ const GraphCanvas = ({
   return (
     <div className="relative w-full overflow-hidden rounded-2xl border border-slate-200 bg-white p-3 lg:p-4 shadow-inner">
       <svg
-        viewBox="0 0 110 100"
-        className="aspect-[21/9] w-full text-slate-500"
+        viewBox="0 0 160 100"
+        className="aspect-[16/9] w-full text-slate-500"
         preserveAspectRatio="xMidYMid meet"
       >
         {/* Render the full road network */}
